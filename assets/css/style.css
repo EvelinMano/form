@@ -34,7 +34,7 @@ h4{
 
 .heading{
     color: #000;
-    text-align: justify;
+    text-align: center;
 }
 .contact{
 	margin:6%;
@@ -88,11 +88,11 @@ h4{
     
 }
 
-@media(max-width:1000px){
-	.float-right{
-		text-align:center;
+/*@media(max-width:1000px){
+	.footer  .logo{
+		justify-content:center;
 	}
-}
+}*/
 
 
 
