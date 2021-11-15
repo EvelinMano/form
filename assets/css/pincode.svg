@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="27" viewBox="0 0 32 27">
+  <defs>
+    <clipPath id="clip-pincode">
+      <rect width="32" height="27"/>
+    </clipPath>
+  </defs>
+  <g id="pincode" clip-path="url(#clip-pincode)">
+    <g id="Group_32756" data-name="Group 32756" transform="translate(1 -36.5)">
+      <rect id="Rectangle_18089" data-name="Rectangle 18089" width="14.063" height="22.417" transform="translate(1.875 39.094)" fill="#480ca8"/>
+      <path id="Path_3034" data-name="Path 3034" d="M28.828,50.625A1.172,1.172,0,0,0,30,49.453V41.016A3.52,3.52,0,0,0,26.484,37.5H3.516A3.52,3.52,0,0,0,0,41.016V59.59a3.52,3.52,0,0,0,3.516,3.516H26.484A3.52,3.52,0,0,0,30,59.59V55.313a1.172,1.172,0,0,0-1.172-1.172H15a1.172,1.172,0,0,0-1.172,1.172v5.449H3.516A1.173,1.173,0,0,1,2.344,59.59V41.016a1.173,1.173,0,0,1,1.172-1.172H26.484a1.173,1.173,0,0,1,1.172,1.172v8.438A1.172,1.172,0,0,0,28.828,50.625Z" fill="#480ca8"/>
+      <path id="Path_3035" data-name="Path 3035" d="M276,361.5h11.484v3.105a1.173,1.173,0,0,1-1.172,1.172H276Z" transform="translate(-259.828 -305.016)" fill="#fff"/>
+      <g id="Group_32755" data-name="Group 32755" transform="translate(7.823 43.919)">
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="1.118" cy="1.211" rx="1.118" ry="1.211" transform="translate(0 0)" fill="#fff"/>
+        <ellipse id="Ellipse_7" data-name="Ellipse 7" cx="1.118" cy="1.211" rx="1.118" ry="1.211" transform="translate(0 4.098)" fill="#fff"/>
+        <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="1.118" cy="1.211" rx="1.118" ry="1.211" transform="translate(0 8.196)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

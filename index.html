@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> 
+     <link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.min.css"> 
+     <link rel="stylesheet" href="./assets/css/style.css">      
+    <title>Registrstion form</title>
+</head>
+<body>
+
+	<!-----------------------------header------------------------------------------->
+	<section class="header">
+		<div class="container">
+		<nav class="navbar navbar-expand-sm navbar-white bg-white " >
+     <div class="container">
+            <a class="navbar-brand" href="#home">
+         
+      <img src="./assets/css/logo.png" width="190"></a>
+        <button class="navbar-toggler navbar-light"  data-toggle="collapse" data-target="#botcollapse" aria-label="toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+  <div class="collapse navbar-collapse" id="botcollapse">
+  <ul class="navbar-nav ml-auto bg-danger">
+                <li class="nav-item active">
+                <a class="nav-link  active text-dark" href="#about"><bold>Home</bold></a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link text-dark" href="https://evelinmano.github.io/contact/"><bold>Contact Us</bold></a>
+                </li>               
+            </ul>            
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>
+
+
+
+<!------------------------------------------------------------content----------------------------------------->
+<section class="m-5">
+  <div class="container">
+  <h4 class=" head text-center mb-4">தன்னார்வலர்களுக்கான பதிவேற்று படிவம் / Volunteer Registration</h4>
+
+  <div id="accordian" role="tablist">
+      <div class="card mb-4 ">
+        <div class="card-header" role="tab" id="heading">
+          <h5 class=" mb-0">
+            <a href="#collapse1" data-parent="#accordian" class="text-white" data-toggle="collapse">
+         
+             <i class="fa fa-plus"></i> அடிப்படைத் தகவல்கள் / Basic Information
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapse1" class="collapse show">
+          <div class="card-body">
+           <div class="row">
+             <div class="col-lg-6">
+              <form>
+                <h6><img src="./assets/css/user.svg" width="14"> முழுப் பெயர் / Full Name (In Capital letters)</h6>
+                <input type="text" class="form-control mb-5" required="This field is required">
+                 <!-- <small  class="error ng-star-inserted"> இந்த தகவல் தேவை / This field is required</small> -->
+                 <h6><img src="./assets/css/DOB.svg" width="14"> பிறந்த தேதி / DOB</h6>
+                                <input type="date" class="form-control mb-5" required="This field is required">
+                       <h6>    <img src="./assets/css/whatsapp.svg" width="14"> வாட்ஸ்ஆப் எண். / WhatsApp No.</h6>
+                                                <input type="text" class="form-control mb-5" required="This field is required">
+                                               <h6> <img src="./assets/css/Aadhaar.svg" width="14"> ஆதார் எண். / Aadhaar No.</h6>
+                                                                <input type="text" class="form-control mb-5" required="This field is required">
+
+              </form>
+               
+              </div>
+
+              <div class="col-lg-6">
+               <h6><img src="./assets/css/gender.svg" width="14"> பாலினம் / Gender</h6>
+                                <select name="country" id="" class="form-control mb-5">
+          <option value="India">Male</option>
+          <option value="austrailia">Female</option>
+          
+      </select>
+      </form>
+                            <h6> <img src="./assets/css/phone.svg" width="14">    அலைபேசி எண் / Mobile No.</h6>
+                                                <input type="text" class="form-control mb-5" required="This field is required">
+                                            <h6><img src="./assets/css/email.svg" width="14">    மின்னஞ்சல் / Email ID</h6>
+                                                                <input type="text" class="form-control mb-5" required="This field is required">
+               
+              </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="accordian" role="tablist">
+      <div class="card mb-4  ">
+        <div class="card-header" role="tab" id="heading">
+          <h5 class="mb-0"><a href="#collapse2" data-parent="#accordian"class="text-white" data-toggle="collapse">
+             <i class="fa fa-plus"></i>  உங்கள் முகவரி / Residential Address Details
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapse2" class="collapse">
+          <div class="card-body">
+           <div class="row">
+              <div class="col-lg-6">
+                <form>
+                  <h6><img src="./assets/css/District.svg" width="14"> மாவட்டம் / District</h6>
+  <select name="country" id="" class="form-control mb-5">
+          <option value="தேர்ந்தெடுக்கவும் / Select">தேர்ந்தெடுக்கவும் / Select</option>
+          <option value="austrailia">Thiruvalur</option>
+          <option value="Malaysia">Krishnagiri</option>
+           <option value="Malaysia">Nagapattinam</option>
+      </select>
+      </form>
+  <h6><img src="./assets/css/village.svg" width="14"> கிராமம் அல்லது வார்டு/Village or Ward</h6>
+  <select name="country" id="" class="form-control mb-5">
+          <option value="தேர்ந்தெடுக்கவும் / Select">தேர்ந்தெடுக்கவும் / Select</option>
+          
+      </select>
+  <h6><img src="./assets/css/pincode.svg" width="14"> அஞ்சல் குறியீட்டு எண் / Pin Code </h6>
+  <input type="text" class="form-control mb-5">
+ 
+  
+</form>
+               
+              </div>
+
+              <div class="col-lg-6">
+                <h6><img src="./assets/css/local body.svg" width="14"> உள்ளாட்சி அமைப்பு / Local Body</h6>
+               <select name="country" id="" class="form-control mb-5">
+          <option value="தேர்ந்தெடுக்கவும் / Select">தேர்ந்தெடுக்கவும் / Select</option>
+         
+      </select>
+                <h6><img src="./assets/css/address.svg" width="14"> உங்கள் முகவரி / Your Address </h6>
+                <textarea placeholder="250 எழுத்துகளுக்கு மிகாமல் பதிவிடவும் / Limited to 250 characters " class="form-control mb-5"></textarea>
+              </div>
+           </div>
+
+           <div class="row">
+             <div class="col-lg-12">
+               <p><img src="./assets/css/location.svg" width="14"> நீங்கள் எங்கு தன்னார்வலராக செயல்பட விரும்புகிறீர்கள்? / Where do you wish to volunteer?</p>
+                <input type="radio" id="age1" name="age" value="30">
+                 <label for="age1">மேலே வழங்கிய முகவரிக்கு அருகில் / Near the residential address provided</label><br>
+                 <input type="radio" id="age2" name="age" value="60">
+                 <label for="age2">வேறு ஒரு இடத்தில் / Pick a new location</label><br>  
+                
+ 
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+       <div id="accordian" role="tablist">
+      <div class="card mb-4  ">
+        <div class="card-header" role="tab" id="heading">
+          <h5 class="mb-0"><a href="#collapse3" data-parent="#accordian" class="text-white" data-toggle="collapse">
+            <i class="fa fa-plus"></i> கல்வி மற்றும் தொழில் விவரங்கள் / Educational and Professional details
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapse3" class="collapse">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <h6><img src="./assets/css/degree.svg" width="14"> கல்வித் தகுதி / Educational Qualification</h6>
+                <input type="text" class="form-control mb-5" placeholder="தேர்ந்தெடுக்கவும் / Select">
+              </div>
+
+               <div class="col-lg-6">
+               <h6><img src="./assets/css/Professional.svg" width="14">  தொழில் விவரங்கள் / Professional details</h6>
+                <input type="text" class="form-control mb-5" placeholder="தேர்ந்தெடுக்கவும் / Select">
+              </div>
+            </div>
+            <div class="container">
+            <div class="row">
+             <h6><img src="./assets/css/group.svg" width="14"> நீங்கள் இளங்கலை கல்வியியல் (B.Ed.) பட்டம் பெற்றவரா? / Are you a B.Ed qualified graduate?</h6>
+          <input type="text" class="form-control mb-5 " placeholder="தேர்ந்தெடுக்கவும் / Select">
+            </div>
+
+             <div class="row">
+             <h6><img src="./assets/css/layer.svg" width="14"> நீங்கள் தொடக்கக் கல்வி பட்டயப் படிப்புச் சான்று / ஆசிரியர் பயிற்சி பட்டயப்படிப்புச் சான்று (D.El.Ed / D.T. Ed) பெற்றவரா?Are you a D.El.Ed / D.T. Ed qualified individual?</h6>
+          <input type="text" class="form-control mb-5 " placeholder="தேர்ந்தெடுக்கவும் / Select">
+            </div>
+
+             <div class="row">
+             <h6><img src="./assets/css/Aadhaar.svg" width="14"> தாங்கள் Rehabilitation Council of India(RCI) ஆல் அங்கீகரிக்கப்பட்ட பட்டம் / பட்டயம் ஏதேனும் படித்தவரா? / Have you completed a Degre e / Diploma recognized by Rehabilitation Council of India (RCI)?</h6>
+          <input type="text" class="form-control mb-5" placeholder="தேர்ந்தெடுக்கவும் / Select">
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+           <div id="accordian" role="tablist">
+      <div class="card mb-4  ">
+        <div class="card-header" role="tab" id="heading">
+          <h5 class="mb-0"><a href="#collapse4" data-parent="#accordian" class="text-white" data-toggle="collapse">
+<i class="fa fa-plus"></i> இதர கேள்விகள் / Additional questions
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapse4" class="collapse">
+          <div class="card-body">
+            <div class="row">
+              <div class=" note col-lg-12 mb-4 p-2">
+            குறிப்பு / Note:</b>
+            <br> * முழு நேர தன்னார்வலர் - வாரத்திற்கு 6 மணி நேரம் / Full time - 6 hours of volunteering commitment per week 
+            <br> * பகுதி நேரம் - வாரத்திற்கு ஒருமுறை/இருவாரங்களுக்கு ஒருமுறை/மாதத்திற்கு ஒருமுறை / Part time - Volunteer based on availability
+              (Weekly once/Two weeks once/Monthly once)
+              </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-12">
+               <h6><img src="./assets/css/Volunteer.svg" width="14"> பகுதி நேர தன்னார்வலர் / Part time - Volunteer based on availability</h6>
+               <input type="text" class="form-control mb-5">
+             </div>
+           </div>
+
+            <div class="row">
+             <div class="col-lg-12">
+               <h6><img src="./assets/css/vaccine.svg" width="14"> தடுப்பூசி பெற்ற விபரம் / Vaccination Status</h6>
+               <input type="text" class="form-control  mb-5">
+             </div>
+           </div>
+
+           <div class="row">
+             <div class="col-lg-12">
+               <h6><img src="./assets/css/vol.svg" width="14"> நீங்கள் ஏன் தொண்டு செய்ய விரும்புகின்றீர்கள்? / Why do you want to volunteer?</h6>
+               <textarea class="form-control  mb-5" placeholder="1000 எழுத்துகளுக்கு மிகாமல் பதிவிடவும் / Limited to 1000 characters "></textarea>
+             </div>
+           </div>
+
+           <div class="row">
+             <div class="col-lg-12">
+               <h6><img src="./assets/css/teacher.svg" width="14"> முந்தைய கற்பித்தல் அனுபவம் / Previous teaching experience</h6>
+                <textarea class="form-control  mb-5" placeholder="1000 எழுத்துகளுக்கு மிகாமல் பதிவிடவும் / Limited to 1000 characters "></textarea>
+             </div>
+           </div>
+
+           <div class="row">
+             <div class="col-lg-12">
+               <h6><img src="./assets/css/Volunteering experience.svg" width="14"> தன்னார்வ அனுபவம் / Volunteering experience</h6>
+ <textarea class="form-control  mb-5" placeholder="1000 எழுத்துகளுக்கு மிகாமல் பதிவிடவும் / Limited to 1000 characters "></textarea>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <p><input type="checkbox"> மேலே கொடுக்கப்பட்ட தகவல்கள் அனைத்தும் உண்மை. / All the information provided above are true to my knowledge.</p>
+  </div>  
+  <div class="text-center">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
+</section>
+
+
+
+<!--------------------------------footer--------------------------------->
+
+<section class="footer p-3">
+  <div class="footer-content">
+    <span class="float-left">illamthedikalvi@gmail.com
+      <br>
+      <small class="font">© 2021 Department of School Education Tamilnadu All Rights Reserved 
+        <a routerlink="privacy-policy" class="link" href="/privacy-policy">
+          <b>Privacy Policy</b></a></small></span>
+          <span class="float-right ">
+            <img  src="./assets/css/logo2.png" alt=" இல்லம் தேடிக் கல்வி சின்னம் / ILLAM THEDI KALVI logo" width="190"></span>
+          </div>
+        </section>
+
+
+
+
+<script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.734" height="30" viewBox="0 0 32.734 30">
+  <g id="graduation-cap" transform="translate(-0.001 -21.404)">
+    <g id="Group_32739" data-name="Group 32739" transform="translate(29.109 41.772)">
+      <path id="Path_2982" data-name="Path 2982" d="M0,0H2.564V2.564H0Z" transform="translate(0 1.813) rotate(-45)" fill="#480ca8"/>
+      <path id="Path_2983" data-name="Path 2983" d="M465.807,430.969a1.711,1.711,0,0,1-1.19-.7v2.641a1.19,1.19,0,1,0,2.381,0v-2.641A1.688,1.688,0,0,1,465.807,430.969Z" transform="translate(-463.989 -424.471)" fill="#480ca8"/>
+    </g>
+    <g id="Group_32740" data-name="Group 32740" transform="translate(0.001 21.404)">
+      <path id="Path_2984" data-name="Path 2984" d="M14.9,21.416.13,26.765a.2.2,0,0,0,0,.369L14.65,32.513a.2.2,0,0,0,.135,0l14.97-5.4a.2.2,0,0,0,0-.369L15.034,21.416A.2.2,0,0,0,14.9,21.416Z" transform="translate(-0.001 -21.404)" fill="#480ca8"/>
+      <path id="Path_2985" data-name="Path 2985" d="M71.862,176.178a1.19,1.19,0,0,1-.817,0l-10.417-3.859v7.143a.713.713,0,0,0,.194.49c.705.748,3.479,3.078,10.637,3.078s10-2.328,10.735-3.077a.712.712,0,0,0,.2-.5V172.38Z" transform="translate(-56.747 -162.656)" fill="#480ca8"/>
+      <path id="Path_2986" data-name="Path 2986" d="M464.617,137.751v9.939a1.373,1.373,0,0,1,2.381,0v-10.8Z" transform="translate(-434.881 -129.501)" fill="#480ca8"/>
+    </g>
+  </g>
+</svg>
